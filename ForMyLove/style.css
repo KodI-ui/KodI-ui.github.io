@@ -1,0 +1,44 @@
+#box{
+    position: relative;
+    max-width: 500px;
+    margin: 80px auto;
+    padding: 30px;
+    background-color: plum;
+    border-radius: 10%;
+    text-align: center;
+}
+
+#bear1{
+    max-width: 100%;
+    height: auto;
+}
+
+#text{
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+#yes-btn,
+#no-btn{
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#yes-btn{
+    background: #4caf50; 
+    color: white;
+}
+
+#no-btn{
+    background: #f44336;
+    color: white;
+}
+
+#yes-btn:hover{
+    transition: all 500ms;
+    background: #3d8b40;
+}
